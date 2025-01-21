@@ -1,9 +1,16 @@
 name: CI
+
 on:
   push:
     branches: [ main ]
   pull_request:
     branches: [ main ]
+
+permissions:
+  actions: read
+  contents: read
+  security-events: write
+
 jobs:
   ci:
     timeout-minutes: 60
