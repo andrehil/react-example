@@ -21,3 +21,4 @@ jobs:
         node-version: lts/*
         integration-test-lib: 'cypress'
         integration-test-command: npm run test:cy
+        integration-test-report-path: 'cypress/results/'
