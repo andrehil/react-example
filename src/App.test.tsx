@@ -8,6 +8,5 @@ test('should increment count', () => {
     expect(screen.getByText('count is 0')).toBeInTheDocument();
   
     fireEvent.click(screen.getByRole('button'));
-  
     expect(screen.getByText('count is 1')).toBeInTheDocument()
   })
