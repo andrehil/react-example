@@ -2,9 +2,9 @@ name: CI
 
 on:
   push:
-    branches: [ main ]
+    branches: [ cypress ]
   pull_request:
-    branches: [ main ]
+    branches: [ cypress ]
 
 permissions:
   actions: read
