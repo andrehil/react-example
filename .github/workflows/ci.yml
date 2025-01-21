@@ -20,4 +20,4 @@ jobs:
       with:
         node-version: lts/*
         integration-test-lib: 'cypress'
-        integratin-test-command: npm run test:cy
+        integration-test-command: npm run test:cy
