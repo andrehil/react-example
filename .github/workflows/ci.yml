@@ -19,3 +19,5 @@ jobs:
     - uses: andrehil/simple-node-ci@main
       with:
         node-version: lts/*
+        integration-test-lib: 'cypress'
+        integratin-test-command: npm run test:cy
